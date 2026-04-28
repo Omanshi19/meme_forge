@@ -1,5 +1,9 @@
 # MemeForge AI 🔥
 
+<img width="1440" height="808" alt="image" src="https://github.com/user-attachments/assets/e352d52d-cd79-40fd-b6ee-ebea5701c977" />
+<img width="1440" height="808" alt="image" src="https://github.com/user-attachments/assets/1a4b2245-e622-4e18-bb3e-a7af687afca0" />
+
+
 > AI-powered meme generation platform — turn any idea into a viral meme in seconds.
 
 ---
