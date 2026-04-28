@@ -28,7 +28,8 @@
 
 ## Photos
  
-
+<img width="1440" height="809" alt="image" src="https://github.com/user-attachments/assets/224afb94-3bf4-4ff4-b679-a2cdf0c008be" />
+---
 <img width="1440" height="808" alt="image" src="https://github.com/user-attachments/assets/e352d52d-cd79-40fd-b6ee-ebea5701c977" />
 ---
 <img width="1440" height="808" alt="image" src="https://github.com/user-attachments/assets/1a4b2245-e622-4e18-bb3e-a7af687afca0" />
