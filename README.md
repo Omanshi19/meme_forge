@@ -72,3 +72,7 @@ memeforge-ai/
 | 3     | Next.js Frontend         | ✅     |
 | 4     | Frontend-Backend Integration | ✅ |
 | 5     | Deployment               | ✅     |
+
+---
+
+Developed by - Omanshi Kaushal
