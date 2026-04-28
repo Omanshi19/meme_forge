@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+backend/.env
+backend/static/memes/
+
+# Node
+node_modules/
+.next/
+out/
+frontend/.env.local
+frontend/.env
+.vercel/
+
+# General
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example

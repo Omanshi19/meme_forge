@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sun:         #FFB800;
+  --sun-light:   #FFD555;
+  --sun-pale:    #FFF3C4;
+  --coral:       #FF6B4A;
+  --coral-light: #FF8F73;
+  --sky:         #4AB8FF;
+  --sand:        #FFFBF0;
+  --sand-mid:    #FFF3C4;
+  --sand-deep:   #F0D9A0;
+  --bark:        #8B5E3C;
+  --text:        #2C1810;
+  --text-soft:   #9A7A6A;
+  --white:       #FFFFFF;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--sand);
+  color: var(--text);
+  font-family: 'DM Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar              { width: 6px; }
+::-webkit-scrollbar-track        { background: var(--sand-mid); }
+::-webkit-scrollbar-thumb        { background: var(--sun); border-radius: 3px; }
+::selection                      { background: var(--sun-light); color: var(--text); }
+
+.summer-card {
+  background: var(--white);
+  border-radius: 24px;
+  border: 2px solid var(--sand-deep);
+  box-shadow: 0 4px 24px rgba(255,184,0,0.1), 0 1px 4px rgba(0,0,0,0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.summer-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(255,184,0,0.2), 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.btn-sun {
+  background: linear-gradient(135deg, var(--sun) 0%, var(--coral) 100%);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 20px rgba(255,184,0,0.35);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'DM Sans', sans-serif;
+}
+.btn-sun:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 32px rgba(255,107,74,0.45);
+}
+.btn-sun:active  { transform: scale(0.97); }
+.btn-sun:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+
+.btn-ghost {
+  background: var(--white);
+  color: var(--text);
+  border: 2px solid var(--sand-deep);
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'DM Sans', sans-serif;
+}
+.btn-ghost:hover {
+  border-color: var(--sun);
+  background: var(--sun-pale);
+}
+
+.gradient-sun {
+  background: linear-gradient(135deg, #FF8C00 0%, var(--coral) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.summer-input {
+  background: var(--sand);
+  border: 2px solid var(--sand-deep);
+  border-radius: 16px;
+  color: var(--text);
+  font-size: 15px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  width: 100%;
+  padding: 14px 18px;
+  outline: none;
+  resize: none;
+  font-family: 'DM Sans', sans-serif;
+}
+.summer-input:focus {
+  border-color: var(--sun);
+  box-shadow: 0 0 0 4px rgba(255,184,0,0.15);
+  background: var(--white);
+}
+.summer-input::placeholder { color: var(--text-soft); opacity: 0.7; }
+
+.tone-pill {
+  border-radius: 50px;
+  border: 2px solid var(--sand-deep);
+  background: var(--white);
+  color: var(--text-soft);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 6px 16px;
+  transition: all 0.18s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'DM Sans', sans-serif;
+}
+.tone-pill:hover {
+  border-color: var(--sun);
+  color: var(--text);
+  background: var(--sun-pale);
+}
+.tone-pill.active {
+  background: linear-gradient(135deg, var(--sun), var(--coral));
+  border-color: transparent;
+  color: white;
+  box-shadow: 0 3px 12px rgba(255,107,74,0.3);
+}
+
+@keyframes float {
+  0%,100% { transform: translateY(0px) rotate(0deg); }
+  40%     { transform: translateY(-14px) rotate(4deg); }
+  70%     { transform: translateY(-7px) rotate(-3deg); }
+}
+@keyframes ticker {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.animate-float  { animation: float 5s ease-in-out infinite; }
+.animate-ticker { animation: ticker 35s linear infinite; }
