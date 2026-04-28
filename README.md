@@ -50,7 +50,7 @@ memeforge-ai/
 |-------------|------------------------------------------|
 | Frontend    | Next.js 14, TypeScript, Tailwind, Framer Motion |
 | Backend     | FastAPI, Python 3.11+                   |
-| AI Layer    | Claude API (caption generation)         |
+| AI Layer    | Grox API (caption generation)         |
 | Image       | Pillow (PIL), OpenCV                    |
 | Database    | MongoDB Atlas                           |
 | Auth        | NextAuth.js (JWT)                       |
