@@ -1,10 +1,10 @@
 # MemeForge AI 🔥
 
-<p align="center">
-  <a href="https://meme-forge-wine.vercel.app/generator">
-    <img src="https://img.shields.io/badge/LIVE%20DEMO-LINK-C084FC?style=for-the-badge&logo=vercel&logoColor=white" />
+<h3 align="center">
+  <a href="https://meme-forge-wine.vercel.app/generator" target="_blank">
+    <span style="color:#C084FC; font-weight:bold;">LIVE DEMO LINK</span>
   </a>
-</p>
+</h3>
 ---
 > AI-powered meme generation platform — turn any idea into a viral meme in seconds.
 ---   
