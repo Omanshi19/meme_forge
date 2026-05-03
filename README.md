@@ -1,8 +1,8 @@
 # MemeForge AI 🔥
 
 <h3 align="center">
-  <a href="https://meme-forge-wine.vercel.app/generator" target="_blank">
-    <span style="color:#C084FC; font-weight:bold;">LIVE DEMO LINK</span>
+  <a href="https://meme-forge-wine.vercel.app/generator">
+    <ins><i>LIVE DEMO LINK</i></ins>
   </a>
 </h3>
 ---
