@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+  
 :root {   
   --sun:         #FFB800;   
   --sun-light:   #FFD555;   
