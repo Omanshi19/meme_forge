@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
  
-:root { 
+:root {  
   --sun:         #FFB800;  
   --sun-light:   #FFD555;  
   --sun-pale:    #FFF3C4; 
