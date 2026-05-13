@@ -8,7 +8,7 @@
 ---
 > AI-powered meme generation platform — turn any idea into a viral meme in seconds.
 --- 
-  
+   
 ## 🚀 Tech Stack       
                
 <p align="center">     
