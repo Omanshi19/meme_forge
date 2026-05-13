@@ -4,7 +4,7 @@
   <a href="https://meme-forge-wine.vercel.app/generator">
     <ins><i>LIVE DEMO LINK</i></ins>
   </a>
-</h3>
+</h3> 
 ---
 > AI-powered meme generation platform — turn any idea into a viral meme in seconds.
 --- 
